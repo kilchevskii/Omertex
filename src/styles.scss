@@ -53,67 +53,67 @@ code {
       .radio-group {
       }
       .fields-group {
-        display: flex !important;
-        flex-direction: column !important;
-        align-items: flex-end !important;
+        display: flex ;
+        flex-direction: column ;
+        align-items: flex-end ;
         .field-container {
-          width: 80% !important;
-          display: flex !important;
-          justify-content: space-between !important;
-          align-items: center !important;
-          padding-bottom: 15px !important;
-          position: relative !important;
+          width: 80% ;
+          display: flex ;
+          justify-content: space-between ;
+          align-items: center ;
+          padding-bottom: 15px ;
+          position: relative ;
           .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
             flex-grow: 1;
           }
           .css-1wc848c-MuiFormHelperText-root {
-            width: 20% !important;
-            color: #000 !important;
-            font-size: 14px !important;
+            width: 20% ;
+            color: #000 ;
+            font-size: 14px ;
           }
           .css-1wc848c-MuiFormHelperText-root.Mui-disabled {
-            color: #a3a3a3 !important;
+            color: #a3a3a3 ;
           }
           .css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
-            width: 80% !important;
-            display: flex !important;
-            flex-direction: row-reverse !important;
-            align-items: center !important;
+            width: 80% ;
+            display: flex ;
+            flex-direction: row-reverse ;
+            align-items: center ;
           }
         }
       }
       .css-u4tvz2-MuiFormLabel-root {
-        font-weight: 600 !important;
-        color: #000 !important;
+        font-weight: 600 ;
+        color: #000 ;
       }
     }
   }
   .btns {
-    border: 1px solid #b7b7b7 !important ;
-    height: 5% !important;
-    border: 1px solid #b7b7b7 !important;
-    height: 5% !important;
-    display: flex !important;
-    align-items: center !important;
-    padding: 0 20px !important;
+    border: 1px solid #b7b7b7  ;
+    height: 5% ;
+    border: 1px solid #b7b7b7 ;
+    height: 5% ;
+    display: flex ;
+    align-items: center ;
+    padding: 0 20px ;
     .submit {
-      width: 90px !important;
-      height: 35px !important;
-      background: #c9f3ff !important;
-      border-radius: 30px !important;
-      border: none !important;
-      outline: none !important;
-      transition: 0.3s !important;
-      margin-right: 15px !important;
+      width: 90px ;
+      height: 35px ;
+      background: #c9f3ff ;
+      border-radius: 30px ;
+      border: none ;
+      outline: none ;
+      transition: 0.3s ;
+      margin-right: 15px ;
       &:hover {
-        background: darken(#c9f3ff, 10%) !important;
+        background: darken(#c9f3ff, 10%) ;
       }
     }
     .cancel {
-      width: 90px !important;
-      height: 35px !important;
-      border-radius: 30px !important;
-      border: 1px solid #c9f3ff !important;
+      width: 90px ;
+      height: 35px ;
+      border-radius: 30px ;
+      border: 1px solid #c9f3ff ;
       background: transparent;
       outline: none;
       transition: 0.3s;
