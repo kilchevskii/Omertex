@@ -31,88 +31,88 @@ code {
       justify-content: space-between;
     }
     .form-group {
-      padding: 30px;
-      width: 45%;
-      border-right: 1px solid #b7b7b7;
+      padding: 30px !important;
+      width: 45% !important;
+      border-right: 1px solid #b7b7b7 !important;
       .css-1nrlq1o-MuiFormControl-root {
-        width: 100%;
+        width: 100% !important;
       }
       .field-container-wireless {
-        justify-content: space-evenly;
-        display: flex;
-        flex-direction: row-reverse;
-        align-items: center;
-        width: 91%;
+        justify-content: space-evenly !important;
+        display: flex !important;
+        flex-direction: row-reverse !important;
+        align-items: center !important;
+        width: 91% !important;
         .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
-          width: 55%;
+          width: 55% !important;
           .css-186xcr5 {
-            display: none;
+            display: none !important;
           }
         }
       }
       .radio-group {
       }
       .fields-group {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: flex-end !important;
         .field-container {
-          width: 80%;
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-          padding-bottom: 15px;
-          position: relative;
+          width: 80% !important;
+          display: flex !important;
+          justify-content: space-between !important;
+          align-items: center !important;
+          padding-bottom: 15px !important;
+          position: relative !important;
           .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
             flex-grow: 1;
           }
           .css-1wc848c-MuiFormHelperText-root {
-            width: 20%;
-            color: #000;
-            font-size: 14px;
+            width: 20% !important;
+            color: #000 !important;
+            font-size: 14px !important;
           }
           .css-1wc848c-MuiFormHelperText-root.Mui-disabled {
-            color: #a3a3a3;
+            color: #a3a3a3 !important;
           }
           .css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
-            width: 80%;
-            display: flex;
-            flex-direction: row-reverse;
-            align-items: center;
+            width: 80% !important;
+            display: flex !important;
+            flex-direction: row-reverse !important;
+            align-items: center !important;
           }
         }
       }
       .css-u4tvz2-MuiFormLabel-root {
-        font-weight: 600;
-        color: #000;
+        font-weight: 600 !important;
+        color: #000 !important;
       }
     }
   }
   .btns {
-    border: 1px solid #b7b7b7;
-    height: 5%;
-    border: 1px solid #b7b7b7;
-    height: 5%;
-    display: flex;
-    align-items: center;
-    padding: 0 20px;
+    border: 1px solid #b7b7b7 !important ;
+    height: 5% !important;
+    border: 1px solid #b7b7b7 !important;
+    height: 5% !important;
+    display: flex !important;
+    align-items: center !important;
+    padding: 0 20px !important;
     .submit {
-      width: 90px;
-      height: 35px;
-      background: #c9f3ff;
-      border-radius: 30px;
-      border: none;
-      outline: none;
-      transition: 0.3s;
-      margin-right: 15px;
+      width: 90px !important;
+      height: 35px !important;
+      background: #c9f3ff !important;
+      border-radius: 30px !important;
+      border: none !important;
+      outline: none !important;
+      transition: 0.3s !important;
+      margin-right: 15px !important;
       &:hover {
-        background: darken(#c9f3ff, 10%);
+        background: darken(#c9f3ff, 10%) !important;
       }
     }
     .cancel {
-      width: 90px;
-      height: 35px;
-      border-radius: 30px;
+      width: 90px !important;
+      height: 35px !important;
+      border-radius: 30px !important;
       border: 1px solid #c9f3ff !important;
       background: transparent;
       outline: none;
